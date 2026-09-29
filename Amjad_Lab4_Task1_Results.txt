@@ -1,0 +1,38 @@
+
+47 ?- consult(['c:/Users/tilza/OneDrive/Documents/Prolog/Amjad_Lab4_Task1.pl']).
+true.
+
+48 ?- house = house.
+true.
+
+49 ?- house = abc.
+false.
+
+50 ?- edge(a,b) = edge(C,b).
+C = a.
+
+51 ?- edge(a,d) = edge(C,B).
+C = a,
+B = d.
+
+52 ?- edge(C,B) = edge(a,d).
+C = a,
+B = d.
+
+53 ?- edge(A,f(g,h)) = edge(a,B).
+A = a,
+B = f(g, h).
+
+54 ?- edge(A,A) = edge(b,c).
+false.
+
+55 ?- edge(A,A) = edge(b,b).
+A = b.
+
+56 ?- A = B, B = f.
+A = B, B = f.
+
+57 ?- A = B, B = f, A = e.
+false.
+
+58 ?- 
