@@ -1,0 +1,25 @@
+47 ?- consult(['c:/Users/tilza/OneDrive/Documents/Prolog/Amjad_Lab4.pl']).
+true.
+
+48 ?- female(X).
+X = sara ;
+X = nora.
+
+49 ?- male(_).
+true .
+
+50 ?- parent(X, Y), parent(Y, faisal).
+X = ali,
+Y = muhammad .
+
+51 ?- parent(ahmad, X), female(X).
+X = sara ;
+X = nora .
+
+52 ?- parent(P, ahmad), parent(P, muhammad).
+P = ali.
+
+53 ?- brother(khan, nora).
+true.
+
+54 ?- 
